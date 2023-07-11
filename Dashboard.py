@@ -8,7 +8,7 @@ server = app.server
 app.layout = html.Div([
     html.H1('Dashboard'),
     html.Iframe(
-        src="<iframe title="Power BI - New Project" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=42540ef2-36bb-41dc-a02c-b428da54e322&autoAuth=true&ctid=401c0fa2-ef1c-4c22-8636-c8f8ecbc97d6" frameborder="0" allowFullScreen="true"></iframe>",
+        src="<iframe title="Power BI - New Project" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=42540ef2-36bb-41dc-a02c-b428da54e322&autoAuth=true&ctid=401c0fa2-ef1c-4c22-8636-c8f8ecbc97d6" frameborder="0"",
         style={'width': '100%', 'height': '600px', 'border': 'none'}
     )
 ])
